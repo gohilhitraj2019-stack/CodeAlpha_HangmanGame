@@ -28,7 +28,7 @@ while attempts > 0:
 
     if guess in word:
         guessed_letters.append(guess)
-        print("✅ Correct Guess!")
+        print(" Correct Guess!")
     else:
         attempts -= 1
         print("Wrong Guess!")
